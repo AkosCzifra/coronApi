@@ -1,0 +1,64 @@
+
+.statsBlock {
+    background:  #c6ffb3;
+    border-bottom: outset #c6ffb3;
+}
+
+.statsTitle {
+    color: rgba(0, 0, 0, 0.85) !important;
+    text-align: center;
+    font-family: Ink Free, fantasy;
+    font-weight: bold;
+    padding-top: 20px;
+}
+
+.statsElement {
+    color: rgba(0, 0, 0, 0.85) !important;
+    text-align: center;
+    font-family: Ink Free, fantasy;
+    font-weight: bold;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.countryBlock {
+    background:  #c6ffb3;
+    position: relative;
+    padding-bottom: 20px;
+}
+
+.countryTitle {
+    color: rgba(0, 0, 0, 0.85) !important;
+    text-align: center;
+    font-family: Ink Free, fantasy;
+    font-weight: bold;
+}
+
+.countryElement {
+    color: rgba(0, 0, 0, 0.85) !important;
+    text-align: center;
+    font-family: Ink Free, fantasy;
+    font-weight: bold;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.selectStyle {
+    padding-top: 10px!important;
+    padding-bottom: 10px !important;
+    margin: 0;
+    position: absolute;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, 0%);
+}
+
+.footerStyle {
+    border-top: inset lightgreen !important;
+    background: lightgreen;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+}
